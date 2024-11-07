@@ -126,10 +126,9 @@ body{
 .member_info{
     display: flex;
     flex-direction: column;
-    /* gap: 20px; */
-    /* padding: 30px; */
+    gap: 20px;
+    padding: 30px;
     height: 100%;
-    width: 80%;
 
 }
 .member_name{
