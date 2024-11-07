@@ -188,7 +188,6 @@ body{
     .member_image{
         height: 100%;
         img{
-            border-radius: 40px 40px 0 0;
             width: 200px;
             aspect-ratio: 250/300;
             object-fit: contain;
