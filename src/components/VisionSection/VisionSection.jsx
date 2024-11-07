@@ -27,6 +27,9 @@ const VisionSection = () => {
   // }, [direction]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isDragging, setIsDragging] = useState(false);
+  const [startX, setStartX] = useState(0);
+  const carouselRef = useRef(null);
 
   const nextButton = () => {
     console.log('click hua');
@@ -43,6 +46,47 @@ const VisionSection = () => {
 
   const setCurrentSlide = (index) =>{
     setCurrentIndex(index);
+  };
+  const handleMouseDown = (e) => {
+    setIsDragging(true);
+    setStartX(e.clientX);
+  };
+
+  const handleMouseMove = (e) => {
+    if (!isDragging) return;
+    const difference = e.clientX - startX;
+    if (difference > 100) {
+      prevButton();
+      setIsDragging(false);
+    } else if (difference < -100) {
+      nextButton();
+      setIsDragging(false);
+    }
+  };
+
+  const handleMouseUp = () => {
+    setIsDragging(false);
+  };
+
+  const handleTouchStart = (e) => {
+    setIsDragging(true);
+    setStartX(e.touches[0].clientX);
+  };
+
+  const handleTouchMove = (e) => {
+    if (!isDragging) return;
+    const difference = e.touches[0].clientX - startX;
+    if (difference > 50) {
+      prevButton();
+      setIsDragging(false);
+    } else if (difference < -50) {
+      nextButton();
+      setIsDragging(false);
+    }
+  };
+
+  const handleTouchEnd = () => {
+    setIsDragging(false);
   };
   return (
     <>
@@ -84,7 +128,8 @@ const VisionSection = () => {
         <div className={style.top_carousel_container}>
           <div className={style.heading}>WHO IS <span>KAT</span> ?</div>
           <div className={style.carouselContainer_top_carousel}>
-            <div className={style.carousel_top_carousel}>
+            <div className={style.carousel_top_carousel} ref={carouselRef} onMouseDown={handleMouseDown} onMouseMove={handleMouseMove} onMouseUp={handleMouseUp} onMouseLeave={handleMouseUp} onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd}>
+
               <div className={style.btn_cont_top_carousel}>
                 <button className={style.left_top_carousel} onClick={prevButton}>
                   <img src={previous} alt="Previous" />
@@ -116,6 +161,7 @@ const VisionSection = () => {
 
             </div>
           </div>
+          <div className={style.swipeText}>Swipe to see more</div>
       </div>
     </>
   )
