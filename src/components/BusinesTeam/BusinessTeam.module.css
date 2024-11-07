@@ -205,6 +205,9 @@ body{
     .member_name{
         font-size: 2rem;
     }
+    .member{
+        width:100%;
+    }
 }
 @media screen and (max-width:800px) and (min-width:500px){
     .members{
