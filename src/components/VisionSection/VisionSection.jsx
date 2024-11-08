@@ -1,8 +1,8 @@
 import React, {useEffect,useState, useRef} from 'react'
 import style from "./VisionSection.module.css"
 // import style from "../FutureSection/Future.module.css"
-import carousel1 from "../../assets/KHAG.jpg"
-import carousel2 from "../../assets/khag3.jpg"
+import carousel1 from "../../assets/KHAG_new.png"
+import carousel2 from "../../assets/khag3_new.png"
 import previous from "../../assets/carousel_images/left.svg"
 import next from "../../assets/carousel_images/right.svg"
 const VisionSection = () => {
