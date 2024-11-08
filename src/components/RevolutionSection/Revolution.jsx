@@ -10,7 +10,7 @@ import Img7 from "../../assets/img7.svg"
 import Img8 from "../../assets/img8.svg"
 import Img9 from "../../assets/img9.svg"
 import EVTOL from "../../assets/EVTOL_plane.webp"
-import EVTOL2 from "../../assets/videos/Features.mp4"
+import EVTOL2 from "../../assets/videos/Features_new.mp4"
 
 const Revolution = () =>{
   return (
