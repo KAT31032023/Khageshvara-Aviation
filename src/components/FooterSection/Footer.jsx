@@ -47,7 +47,7 @@ const Footer = () => {
                 <Link to="/technology">Technology</Link>
               </div>
               <div className={style.link3}>
-                <Link className={styles.career} to="/career">Careers</Link>
+                <Link to="/career">Careers</Link>
               </div>
             </div>
             <div className={style.social_handles}>
