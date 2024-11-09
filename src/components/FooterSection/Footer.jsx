@@ -6,6 +6,7 @@ import phone from "../../assets/footersection/phone.svg"
 import mail from "../../assets/footersection/mail.svg"
 import linkedin from "../../assets/footersection/linkedin.svg"
 import instagram from "../../assets/footersection/instagram.svg"
+import {BrowserRouter,Routes,Route,Link,} from "react-router-dom";
 
 
 const Footer = () => {
