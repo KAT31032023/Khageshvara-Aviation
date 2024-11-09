@@ -44,10 +44,10 @@ const Footer = () => {
                 <Link to="/about">About Us</Link>
               </div>
               <div className={style.link2}>
-                <a href="/technology">Technology</a>
+                <Link to="/technology">Technology</Link>
               </div>
               <div className={style.link3}>
-                <a href="/career">Careers</a>
+                <Link className={styles.career} to="/career">Careers</Link>
               </div>
             </div>
             <div className={style.social_handles}>
