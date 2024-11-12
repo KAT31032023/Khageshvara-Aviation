@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import style from "./VisionSection.module.css";
-import carousel1 from "../../assets/KHAG_new.png";
-import carousel2 from "../../assets/khag3_new.png";
+import carousel1 from "../../assets/KHAG_new.jpg";
+import carousel2 from "../../assets/khag3_new.jpg";
 import previous from "../../assets/carousel_images/left.svg";
 import next from "../../assets/carousel_images/right.svg";
 
