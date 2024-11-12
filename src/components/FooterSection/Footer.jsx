@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom'; 
+import {BrowserRouter,Routes,Route,Link,} from "react-router-dom";
 import style from "../FooterSection/Footer.module.css";
 import logo from "../../assets/footersection/logo.svg";
 import location from "../../assets/footersection/location.svg";
