@@ -87,7 +87,7 @@ const Analytics = () => {
                     <div className={style.heading2}>UNREACHABLE</div>
             </div>
             <div className={style.map_video_container}>
-                <video className={style.map_Video} autoPlay loop muted preload="auto">
+                <video className={style.map_Video} autoPlay loop muted playsinline preload="auto">
                     <source src ={map_video} type="video/mp4"/>
                 </video>
             </div>
