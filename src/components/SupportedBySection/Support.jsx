@@ -6,10 +6,6 @@ import Yspace from "../../assets/supportedbysection/Yspace.png"
 import Oxford from "../../assets/supportedbysection/oxford.webp"
 import ISB from "../../assets/supportedbysection/ISB.webp"
 import DLABS from "../../assets/supportedbysection/dlabs.png"
-import min from "../../assets/supportedbysection/min_st.svg"
-import nidhiprayas from "../../assets/supportedbysection/nidhiprayas.webp"
-import startupindia from "../../assets/supportedbysection/startupindia.webp"
-import meity from "../../assets/supportedbysection/MeitY.png"
 import TEC from "../../assets/supportedbysection/BITS-TEC_Logo.png"
 import SRIX from "../../assets/supportedbysection/SRIX.jpg"
 
@@ -43,23 +39,6 @@ const Support = () => {
                 </div>
                 <div className="org">
                     <img src={SRIX} alt="" />
-                </div>
-            </div>
-        </div>
-        <div className={style.Grantsby}>
-            <div>Grants given by</div>
-            <div className={style.grantsorg}>
-                <div className="Org">
-                    <img src={min} alt="" />
-                </div>
-                <div className="Org">
-                    <img src={nidhiprayas} alt="" />
-                </div>
-                <div className="Span">
-                    <img src={startupindia} alt="" />
-                </div>
-                <div className="Span">
-                    <img src={meity} alt="" />
                 </div>
             </div>
         </div>
