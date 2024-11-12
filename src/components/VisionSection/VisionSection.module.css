@@ -1,3 +1,43 @@
+/* Assuming this is your CSS file */
+
+.carousel_top_carousel {
+  position: relative;
+  /* overflow: hidden; */
+  width: 100%;
+}
+
+.leftButton {
+  position: absolute;
+  top: 50%;
+  left: 50px; /* Move it outside the container */
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+
+}
+
+.rightButton {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+}
+
+.arrowImage {
+  width: 30px;
+  height: 30px;
+}
+
+
+
 /* .pageWrapper {
   height: 100dvh;
   width: 100vw;
@@ -430,7 +470,6 @@
 
 .left_top_carousel, .right_top_carousel{
   position: absolute;
-  /* z-index: 1; */
   background: rgba(0,0,0,0.2);
   border: none;
   cursor: pointer;
@@ -583,6 +622,7 @@
     font-size: 3.5rem;
   }
 }
+
 @media screen and (max-width: 700px) and (min-width:500px ){
   .swipeText{
     display: none;
@@ -734,5 +774,46 @@
   }
   .change_top_carousel{
     display: none;
+  }
+  .leftButton{
+    display: none;
+  }
+  .rightButton{
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:1000px ){
+  .leftButton{
+    left: 10px;
+  }
+  .rightButton{
+    right: 10px;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width:800px ){
+  .leftButton{
+    top: 95%;
+    left: 40%;
+  }
+  .rightButton{
+    top: 95%;
+    right: 45%;
+  }
+}
+@media screen and (max-width: 800px) and (min-width:700px ){
+  .leftButton{
+    top: 90%;
+    left: 40%;
+  }
+  .rightButton{
+    top: 90%;
+    right: 45%;
+  }
+  .arrowImage {
+    width: 25px;
+    height: 25px;
   }
 }
