@@ -3,6 +3,9 @@ import style from "../JoinSection/Join.module.css"
 
 
 const Join = () => {
+    const openGoogleForm = () => {
+        window.open("https://forms.gle/A4yU2ZcsDth2knFE9", "_blank");
+      };
   return (
     <>
     <div className={style.contentwrapper}>
@@ -13,7 +16,7 @@ const Join = () => {
             <div className={style.head2}>UNREACHBALE"</div>
         </div>
         <div className={style.joinbutton}>
-            <button className={style.button}>
+            <button onClick={openGoogleForm} className={style.button}>
                 JOIN OUR REVOULTION
             </button>
         </div>
