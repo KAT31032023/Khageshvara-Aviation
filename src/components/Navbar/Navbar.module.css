@@ -152,15 +152,25 @@ nav{
     padding: 5px;
   }
   .imageLogoContainer img {
-    width: 50px;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width:520px ){
+  nav{
+    height:60px;
+  }
+}
+@media screen and (max-width: 520px) and (min-width:300px ){
+  nav{
+    height:40px;
+  }
+  .imageLogoContainer img {
+    width: 30px;
+    margin: 5px;
   }
 }
 
 @media screen and (max-width: 385px) {
-  .imageLogoContainer img {
-    width: 50px;
-    margin-left: 1rem;
-  }
   .list {
     width: 50%;
   }
