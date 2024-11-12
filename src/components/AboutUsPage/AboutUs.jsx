@@ -6,6 +6,7 @@ import Ritvik from '../../assets/member_images/ritvik yadav.png';
 import Shayandeep  from '../../assets/member_images/Shayandeep Das.png';
 import BusinessTeam from "../BusinesTeam/BusinessTeam";
 import TechTeam from "../TechTeam/TechTeam";
+import newtop from "../../assets/vtol top[1].png"
 
 
 const AboutUs = () => {
@@ -13,7 +14,7 @@ const AboutUs = () => {
     <>
     <div className={style.contentwrapper}>
       <div className={style.topImage}>
-        <img src={topimage} alt="" />
+        <img src={newtop} alt="" />
       </div>
       <div className={style.aboutUs}>
         <div className={style.heading}>
