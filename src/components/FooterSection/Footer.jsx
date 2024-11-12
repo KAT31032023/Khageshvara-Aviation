@@ -65,13 +65,13 @@ const Footer = () => {
           <div className={style.right}>
             <div className={style.links}>
               <div className={style.link1}>
-                <a href="/about">About Us</a>
+                <Link className={styles.about} to="/about">About Us</Link>
               </div>
               <div className={style.link2}>
-                <a href="/technology">Technology</a>
+                <Link to="/technology">Technology</Link>
               </div>
               <div className={style.link3}>
-                <a href="/career">Careers</a>
+                <Link to="/career">Careers</Link>
               </div>
             </div>
             <div className={style.social_handles}>
