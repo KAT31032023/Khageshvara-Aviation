@@ -21,7 +21,7 @@ const Revolution = () =>{
             <div className={style.heading_2}>REVOLUTION</div>
         </div>
         <div className={style.Evtol_video}>
-            <video className={style.v2} autoPlay loop muted>
+            <video className={style.v2} autoPlay loop muted playsinline>
                 <source src={EVTOL2} type="video/mp4"/>
             </video>
         </div>
