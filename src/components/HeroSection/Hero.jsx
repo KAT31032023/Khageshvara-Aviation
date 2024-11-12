@@ -29,7 +29,7 @@ const Hero = () => {
 
       {/* Use this if you need the video UI  */}
       <div className={styles.wrapper}>
-        <video className={styles.bgVideo} autoPlay loop muted preload="auto">
+        <video className={styles.bgVideo} autoPlay loop muted playsinline preload="auto">
                 <source src ={topvideo} type="video/mp4"/>
         </video>
       </div>
