@@ -128,7 +128,7 @@ body{
     padding: 30px;
     .about_member{
             width: 30vw;
-            height: 45vh;
+            height: 35vh;
     }
 
 }
@@ -268,7 +268,7 @@ body{
 
 /* media queries for member images  */
 
-@media screen and (max-width:1150px) and (min-width:1000px){
+@media screen and (max-width:1250px) and (min-width:1000px){
     .member{
         height: 100vh;
     }
