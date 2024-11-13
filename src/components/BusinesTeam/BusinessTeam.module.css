@@ -292,3 +292,63 @@ body{
         }
     }
 }
+/* top image media queries */
+
+@media screen and (max-width:1000px) and (min-width:900px){
+    .topImage{
+        height: 40vh;
+        width: 100vw;
+        img{
+            margin-top: 0%;
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 25% 35%;
+        }
+
+    }
+}
+@media screen and (max-width:900px) and (min-width:700px){
+    .topImage{
+        height: 40vh;
+        width: 100vw;
+        img{
+            margin-top: 0%;
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 25% 35%;
+        }
+
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:410px){
+    .topImage{
+        height: 20vh;
+        width: 100vw;
+        img{
+            margin-top: 0%;
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 25% 35%;
+        }
+
+    }
+}
+
+@media screen and (max-width:410px) and (min-width:300px){
+    .topImage{
+        height: 20vh;
+        width: 100vw;
+        img{
+            margin-top: 0%;
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 25% 35%;
+        }
+
+    }
+}
