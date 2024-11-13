@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import topimage from '../../assets/background_About_page.jpg';
 import style from '../BusinesTeam/BusinessTeam.module.css';
+import newtop from "../../assets/vtol top[1].png"
+
 
 const MentorsPage = () => {
   const membersRef = useRef(null);
@@ -17,7 +19,7 @@ const MentorsPage = () => {
     <>
       <div className={style.contentwrapper}>
         <div className={style.topImage}>
-          <img src={topimage} alt="" />
+          <img src={newtop} alt="" />
         </div>
         <div className={style.aboutUs}>
           <div className={style.heading}>
