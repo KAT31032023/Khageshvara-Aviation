@@ -1,3 +1,5 @@
+/* Assuming this is your CSS file */
+
 .carousel_top_carousel {
   position: relative;
   /* overflow: hidden; */
@@ -732,7 +734,7 @@
   }
   .card_top_carousel img {
     width: 80vw;
-    height: 30vh;
+    height: 20vh;
     object-fit: scale-down;
     transform: scale(1.1);
   }
