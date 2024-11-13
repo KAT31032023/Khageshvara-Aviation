@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import {BrowserRouter,Routes,Route,Link,} from "react-router-dom";
 import style from "../FooterSection/Footer.module.css";
 import logo from "../../assets/footersection/logo.svg";
-import location from "../../assets/footersection/location.svg";
+import location1 from "../../assets/footersection/location.svg";
 import phone from "../../assets/footersection/phone.svg";
 import mail from "../../assets/footersection/mail.svg";
 import linkedin from "../../assets/footersection/linkedin.svg";
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
             <div className={style.contact}>
               <div className={style.address}>
-                <img src={location} alt="" />
+                <img src={location1} alt="" />
                 <div className={style.location_1}>
                   <span>30, Green Avenue, Khatipura Road, Jharkhand Mod, Jaipur, 302012, Rajasthan.</span>
                 </div>
