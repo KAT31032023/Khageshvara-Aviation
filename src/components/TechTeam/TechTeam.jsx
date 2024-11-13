@@ -5,6 +5,8 @@ import Anh_Nguyen from '../../assets/member_images/Anh Nguyen.png';
 import Madhav from '../../assets/member_images/Madhav Menon.png';
 import Tashif from '../../assets/member_images/Tashif.png';
 import style from '../BusinesTeam/BusinessTeam.module.css';
+import newtop from "../../assets/vtol top[1].png"
+
 
 const TechTeam = () => {
   const membersRef = useRef(null);
@@ -20,7 +22,7 @@ const TechTeam = () => {
     <>
       <div className={style.contentwrapper}>
         <div className={style.topImage}>
-          <img src={topimage} alt="" />
+          <img src={newtop} alt="" />
         </div>
         <div className={style.aboutUs}>
           <div className={style.heading}>
