@@ -718,24 +718,26 @@
     padding-bottom: 0px;
   }
   .carousel_top_carousel {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     border-radius: 10px;
   }
   .cards_top_carousel{
     display: flex;
     height: 30vh;
-    width: 90vw;
+    width: 100vw;
   }
   .card_top_carousel{
     flex-direction: column;
-    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
     height: 30vh;
   }
   .card_top_carousel img {
-    width: 80vw;
-    height: 20vh;
-    object-fit: scale-down;
+    width: 70vw;
+    /* height: 20vh; */
+    object-fit:cover;
     transform: scale(1.1);
   }
   .left_top_carousel,.right_top_carousel{
