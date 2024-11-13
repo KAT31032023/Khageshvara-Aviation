@@ -581,7 +581,7 @@
     font-size: 4.25rem;
     text-align: center;
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
     justify-content: center;
     align-items: center;
     margin: 0.5rem;
@@ -626,10 +626,15 @@
 }
 @media screen and (max-width: 600px) and (min-width:300px ){
     .heading{
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         display: flex;
+        /* flex-direction:column; */
         gap: 10px;
-        flex-direction:column;
         margin-top: 1.5rem;
+    }
+    .map_Video{
+        width: 90vw;
+        height: auto;
+        object-fit: fill;
     }
 }
