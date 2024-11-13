@@ -7,6 +7,8 @@ import Piyaal from '../../assets/member_images/Piyal Chaudhary.png';
 import Swasti from '../../assets/member_images/Swasti Dubey.png';
 import Ujjawal from '../../assets/member_images/Ujjawal Kumar.png';
 import style from '../BusinesTeam/BusinessTeam.module.css';
+import newtop from "../../assets/vtol top[1].png"
+
 
 const BusinessTeam = () => {
   const membersRef = useRef(null);
@@ -22,7 +24,7 @@ const BusinessTeam = () => {
     <>
       <div className={style.contentwrapper}>
         <div className={style.topImage}>
-          <img src={topimage} alt="" />
+          <img src={newtop} alt="" />
         </div>
         <div className={style.aboutUs}>
           <div className={style.heading}>
